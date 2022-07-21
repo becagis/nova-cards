@@ -1,5 +1,5 @@
 {
-    "name": "stepanenko3/nova-cards",
+    "name": "ttungbmt/nova-cards",
     "description": "A Laravel Nova info cards.",
     "keywords": [
         "laravel",
@@ -23,7 +23,10 @@
     "autoload": {
         "psr-4": {
             "Stepanenko3\\NovaCards\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "extra": {
         "laravel": {
